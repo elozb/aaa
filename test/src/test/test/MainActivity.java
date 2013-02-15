@@ -4,6 +4,8 @@ import android.app.Activity;
 import android.os.Bundle;
 import android.util.Log;
 import android.view.Menu;
+//git test
+//master &
 
 public class MainActivity extends Activity {
 
