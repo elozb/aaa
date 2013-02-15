@@ -11,32 +11,7 @@ public class MainActivity extends Activity {
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
-        int a = 234;
-        int b = 0;
-        long startTime;
-        long gap=0;
-        Log.e("time", ""+System.currentTimeMillis());
-        for(long j=0;j<10;j++){
-	        startTime = System.currentTimeMillis();
-	        for(long i=0;i<10000000L;i++){
-	        	if(a==0){
-	        		b=1;
-	        	}
-	        }
-	        gap = System.currentTimeMillis()-startTime;
-	        Log.e("a==0", ""+gap);
-        }
-        
-        for(long j=0;j<10;j++){
-	        startTime = System.currentTimeMillis();
-	        for(long i=0;i<10000000L;i++){
-	        	if(0==a){
-	        		b=1;
-	        	}
-	        }
-	        gap = System.currentTimeMillis()-startTime;
-	        Log.e("0==a", ""+gap);
-        }
+        Log.e("####","테 스 트");
         
 
    
